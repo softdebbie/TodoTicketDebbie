@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import {config} from "../backend/config.js";
+import {config} from "./config.js";
 
 mongoose.connect(config.db.uri);
 
